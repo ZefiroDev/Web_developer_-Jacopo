@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    height: 900px;
+    background-image: url(https://cdn.hipwallpaper.com/i/46/69/zKF0oA.jpg);
+/*fixare il background su sfondo */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header {
+    background-image: url(../../image/galaery_2.jpg);
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    border-radius: 0 0 85% 85%/30%;
+
+}
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 60px;
+}
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(200, 195, 209);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.choose {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 195, 209);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #333;
+    margin-bottom: 10px
+}
+
+.logo {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+  
+}   
+
+.citta,
+h2 {
+    text-align: center;
+    margin-top: 250px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px #333;
+    color: rgb(200, 195, 209);
+}
+
+
+/*button Block*/
+ul{ display: flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content: center;}
+
+.fixed {overflow: auto;}
+
+
+button {
+    border: solid 2px rgba(255, 255, 255, 0);
+    outline: none;
+    border-radius: 200px;
+    margin-bottom: 50px;
+    width: 95px;
+    height: 58px;
+    margin-right: 8px;
+    backface-visibility: hidden;   
+    transition: all ease 0.5s;
+
+}
+
+button:hover {
+    border: groove 4px rgba(223, 22, 22, 0.815);
+    
+}
+
+/*Ancore Button*/
+.Europa {
+    background: url(../../image/Flag_Europe.jpg);
+}
+
+.America {
+    background: url(../../image/Flag_america.png);
+    background-repeat: no-repeat;
+}
+
+.Africa {
+    background: url(../../image/Flag_Africa.png);
+    width: 98px;
+    background-repeat: round;
+}
+
+.Asia {
+    background: url(../../image/flag_japan.png);
+    width: 98px
+}
+
+.SudAmerica {
+    background: url(../../image/flag_Brasil.png);
+}
+
+.Oceania {
+    background: url(../../image/Flag_Australia.png);
+    background-repeat: no-repeat;
+}
+
+
+
+/*banner block.
+esercizi con:
+viewport misure 
+calc
+var*/
+
+.banner {
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 37.5vmin;
+    min-height: 15em;
+    background: var(--img) 50%/ cover;
+    /*linear-gradient(#000, transparent, #000)*/
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.Banner_2 {
+    width: 100vm;
+    height: 37.5vmin;
+    margin-left: calc(50% - 50vw);
+    min-height: 15em;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+}
+
+.Banner_2:hover {
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+/*banner a scorrimento, var(--img)*/
+.banner:nth-of-type(1) {
+    --img: url(https://static.wixstatic.com/media/5d2f7e_cbaaee42ecc3454ba7822923d3cda2f8~mv2_d_2560_1440_s_2.jpg);
+}
+
+.banner:nth-of-type(2) {
+    --img: url(https://media.cntraveler.com/photos/5948071e494db63f5b6160aa/16:9/w_2560%2Cc_limit/statue-of-liberty-GettyImages-539667859.jpg);
+}
+
+.banner:nth-of-type(3) {
+    --img: url(https://www.turistafaidate.it/wp-content/uploads/2016/07/Rio-de-Janeiro.jpg)
+}
+
+.banner:nth-of-type(4) {
+    --img: url(https://i.dailymail.co.uk/1s/2020/06/29/16/30187704-0-image-a-13_1593444491275.jpg)
+}
+
+.banner:nth-of-type(5) {
+    --img: url(https://lh4.googleusercontent.com/Ar_1vXJH-74tolfn3fGtvqaT5jAGcF9tIfed5T5elRcO4H1tEgt48_1FrRb3CEsXowrsfHng2luu21MRtpXmqG-wbQA4Bs9dgS-RwkMZD2VicGcshp0YRLgle4OOK4ypaB1X5qWfQb0nYaow)
+}
+
+.banner:nth-of-type(6) {
+    --img: url(https://hancockinstitute.org/media/Sydney-iStock-532150269-Cropped.jpeg)
+}
+
+
+
+footer{
+    margin-top: 0px;
+    background-color: #000;
+    overflow: auto;
+    height: 15%;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 40px;
+    color: rgb(57, 57, 57);
+
+
+
+}
