@@ -126,7 +126,7 @@ nav {
   
   
   header {
-    background-image: url(https://wallpaperaccess.com/full/2074573.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/8/77/PW0H36.jpg);
     text-align: center;
     width: 100%;
     background-size: cover;
@@ -153,7 +153,7 @@ nav {
     font-size: 60px;
     font-weight: bold;
     /* AMERICA Flag*/
-    background: linear-gradient(90deg, rgba(255,205,0) 35%, rgba(0,20,137) 50%, rgba(255, 255, 255) 65%);
+    background: linear-gradient(90deg, rgba(117,170,219) 35%, rgba(255, 255, 255) 50%, rgba(252, 191, 73) 65%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -174,8 +174,8 @@ section {
     justify-content: center;
     margin-bottom: 35px;
     position: relative;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
 
 
 }
@@ -206,7 +206,7 @@ h2 {
     text-align: center;
     margin-top: 5px;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 55px;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 3px;
     text-shadow: 2px 2px 2px #333;
@@ -222,6 +222,6 @@ footer {
     margin-bottom: 0;
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 40px;
+    padding-top: 10px;
     color: rgb(57, 57, 57);
 }
