@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-image: url(../../image/galaery_2.jpg);
+    background-image: url(https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ);
     text-align: center;
     width: 100%;
     height: auto;
@@ -33,6 +33,104 @@ header .overlay {
     height: 100%;
     padding: 50px;
     margin-top: 60px;
+}
+.primary-navigation {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px rgb(247, 216, 216);
+    color: grey;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.dropdown {
+    font-size: 18px;
+    text-shadow: none;
+    text-shadow: 1px 1px 1px rgb(247, 216, 216);
+}
+
+nav {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px auto;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+li a {
+    color: rgb(0, 0, 0);
+
+
+}
+
+li a:hover {
+    color: rgb(158, 55, 55);
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul li ul {
+    visibility: hidden;
+    opacity: 5px;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    display: none;
+    background: rgba(209, 198, 198, 0);
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px -1px rgba(204, 204, 204, 0);
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid rgb(158, 55, 55);
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+
+    border-radius: 0 0 10px 7px;
+}
+
+ul li ul li a {
+    transition: all 0.5s ease;
 }
 
 
@@ -51,10 +149,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 20px;
-    color: rgb(200, 195, 209);
+    font-size: 50px;
+    color: rgb(13, 10, 19);
     font-weight: bold;
-    text-shadow: 2px 2px 2px #333;
+    text-shadow: 5px 5px 5px #333;
     margin-bottom: 10px
 }
 
@@ -69,13 +167,13 @@ h1 {
 .citta,
 h2 {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 70px;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 3px;
     text-shadow: 2px 2px 2px #333;
-    color: rgb(200, 195, 209);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -155,51 +253,49 @@ var*/
     background-blend-mode: multiply;
 }
 
-.Banner_2 {
-    width: 100vm;
-    height: 37.5vmin;
-    margin-left: calc(50% - 50vw);
-    min-height: 15em;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    background-attachment: fixed;
-    background-blend-mode: multiply;
-
-}
 
 .Banner_2:hover {
     background-color: rgba(255, 255, 255, 0);
 
 }
+.choose2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(200, 195, 209);
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #333;
+    margin-bottom: 10px
+}
 
 /*banner a scorrimento, var(--img)*/
-@media screen and (min-width: 375px) {
+
 .banner:nth-of-type(1) {
-    --img: url(https://static.wixstatic.com/media/5d2f7e_cbaaee42ecc3454ba7822923d3cda2f8~mv2_d_2560_1440_s_2.jpg);
+    --img: url(https://media-exp1.licdn.com/dms/image/C4D1BAQEuaQAhY2RMEQ/company-background_10000/0/1582917414821?e=2159024400&v=beta&t=Ur-lfuKLIeLyLqlXMCm_rX4D-enXaIxF5tU18WxXVbw);
 }
 
 .banner:nth-of-type(2) {
-    --img: url(https://media.cntraveler.com/photos/5948071e494db63f5b6160aa/16:9/w_2560%2Cc_limit/statue-of-liberty-GettyImages-539667859.jpg);
+    --img: url(https://wallpapercave.com/wp/wp4171270.jpg);
 }
 
 .banner:nth-of-type(3) {
-    --img: url(https://www.turistafaidate.it/wp-content/uploads/2016/07/Rio-de-Janeiro.jpg)
+    --img: url(https://wallpaperbat.com/img/196249-the-legend-of-zelda-breath-of-the-wild-adventure-video-game-ultra.jpg)
 }
 
 .banner:nth-of-type(4) {
-    --img: url(https://i.dailymail.co.uk/1s/2020/06/29/16/30187704-0-image-a-13_1593444491275.jpg)
+    --img: url(https://hotcorn-cdn.s3.amazonaws.com/wp-content/uploads/sites/2/2020/04/28105318/into-the-wild-4.jpg)
 }
 
 .banner:nth-of-type(5) {
-    --img: url(https://lh4.googleusercontent.com/Ar_1vXJH-74tolfn3fGtvqaT5jAGcF9tIfed5T5elRcO4H1tEgt48_1FrRb3CEsXowrsfHng2luu21MRtpXmqG-wbQA4Bs9dgS-RwkMZD2VicGcshp0YRLgle4OOK4ypaB1X5qWfQb0nYaow)
+    --img: url(https://hotcorn-cdn.s3.amazonaws.com/wp-content/uploads/sites/2/2020/04/28105318/into-the-wild-4.jpg)
 }
 
 .banner:nth-of-type(6) {
-    --img: url(https://hancockinstitute.org/media/Sydney-iStock-532150269-Cropped.jpeg)
+    --img: url(https://hotcorn-cdn.s3.amazonaws.com/wp-content/uploads/sites/2/2020/04/28105318/into-the-wild-4.jpg)
 }
 
-}
+
 
 footer{
     margin-top: 0px;
