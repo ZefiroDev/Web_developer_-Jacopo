@@ -174,6 +174,7 @@ var*/
 }
 
 /*banner a scorrimento, var(--img)*/
+@media screen and (min-width: 375px) {
 .banner:nth-of-type(1) {
     --img: url(https://static.wixstatic.com/media/5d2f7e_cbaaee42ecc3454ba7822923d3cda2f8~mv2_d_2560_1440_s_2.jpg);
 }
@@ -198,7 +199,7 @@ var*/
     --img: url(https://hancockinstitute.org/media/Sydney-iStock-532150269-Cropped.jpeg)
 }
 
-
+}
 
 footer{
     margin-top: 0px;
