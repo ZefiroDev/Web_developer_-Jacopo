@@ -174,8 +174,8 @@ section {
     justify-content: center;
     margin-bottom: 35px;
     position: relative;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 
 }
@@ -215,15 +215,16 @@ h2 {
 
 
 footer {
-    margin-top: 100px;
-    background-color: #000;
-    overflow: auto;
-    height: 15%;
-    margin-bottom: 0;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 10px;
-    color: rgb(57, 57, 57);
+  margin-top: 50px;
+  background-color: #000;
+  overflow: auto;
+  height: 15%;
+  margin-bottom: 0px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  color: rgb(57, 57, 57);
+  font-size: 13.9px;
 }
 
 
