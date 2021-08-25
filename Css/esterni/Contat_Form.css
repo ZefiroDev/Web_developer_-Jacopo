@@ -1,10 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 /*start menu part*/
 
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
 nav {
   margin: 0 auto;
   display: block;
-  text-align: center;
   font-size: 16px;
   margin-top: 0;
   display: flex;
@@ -16,13 +22,11 @@ nav {
 ul li {
   list-style: none;
   margin: 10px auto;
-  display: inline-block;
+  display:inline-block;
   padding: 0 30px;
-  position: relative;
+  position:relative;
   text-decoration: none;
   text-align: center;
- 
-  
 }
 
 li a {
@@ -63,7 +67,7 @@ ul li ul li {
   clear: both;
   width: 100%;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border-style: none;
 
 }
@@ -110,7 +114,7 @@ html {
 }
 
 body {
-    height: 1000px;
+    height: 900px;
     background-image: url(https://cdn.hipwallpaper.com/i/46/69/zKF0oA.jpg);
 /*fixare il background su sfondo */
     background-position: center center;
@@ -162,11 +166,12 @@ h1 {
   letter-spacing: 7px;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .underline {
   border-bottom: solid 2px #000000;
-  margin: -0.512em auto;
+  margin: 5px auto;
   width: 80px;
 }
 
@@ -340,13 +345,15 @@ textarea {
   }
 }
 footer {
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: #000;
   overflow: auto;
   height: 15%;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   text-align: center;
   letter-spacing: 1px;
   padding-top: 10px;
   color: rgb(57, 57, 57);
+  font-size: 13.9px;
 }
+
