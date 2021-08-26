@@ -2,21 +2,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="Css/esterni/Contat_Form.css">
+    <link rel="stylesheet" type="text/css" href="Css/Contat_Form.css">
 </head>
 <body>
 <nav role="navigation" class="primary-navigation">
   <ul>
-    <li><a href="http://localhost:8080/index.html">Home</a>
+    <li><a href="http://albatrosstravel.altervista.org/index.html">Home</a>
     </li>
-    <li><a href="http://localhost:8080/About.html">About</a></li>
-    <li><a href="http://localhost:8080/Contat_Form.html">Contact</a></li>
+    <li><a href="http://albatrosstravel.altervista.org/About.html">About</a></li>
+    <li><a href="http://albatrosstravel.altervista.org/Contat_Form.html">Contact</a></li>
     <li><a href="#">Continent&dtrif;</a>
       <ul class="dropdown">
-        <li style="margin-top: 0.1px;"><a href="http://localhost:8080/Europa.html">EUROPE</a></li>
-        <li style="margin-top: 0.1px;"><a href="http://localhost:8080/America.html">AMERICA</a></li>
-        <li style="margin-top: 0.1px;"><a href="http://localhost:8080/SudAmerica.html">SUD AMERICA</a></li>
-        <li style="margin-top: 0.1px;"><a href="http://localhost:8080/Asia.html">ASIA</a></li>
+        <li style="margin-top: 0.1px;"><a href="http://albatrosstravel.altervista.org/Europa.html">EUROPE</a></li>
+        <li style="margin-top: 0.1px;"><a href="http://albatrosstravel.altervista.org/America.html">AMERICA</a></li>
+        <li style="margin-top: 0.1px;"><a href="http://albatrosstravel.altervista.org/SudAmerica.html">SUD AMERICA</a></li>
+        <li style="margin-top: 0.1px;"><a href="http://albatrosstravel.altervista.org/Asia.html">ASIA</a></li>
       </ul>
     
   </li>
@@ -32,7 +32,7 @@
         <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
       </svg>
     </div>
-    <form action="#" method="post" id="contact_form">
+    <form action="mailto:zefiromtg@gmail.com" method="POST" id="contact_form">
       <div class="name">
         <label for="name"></label>
         <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -59,7 +59,8 @@
         <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
       </div>
       <div class="submit">
-        <a href="mailto:zefiromtg@gmail.com" ><input type="submit" value="Send Message" id="form_button" /></a>
+        <input type="submit" value="Send Message" id="form_button"/>
+        <input type="reset" value="Clear Form" id="form_button"/>
       </div>
     </form><!-- // End form -->
   </div><!-- // End #container -->
