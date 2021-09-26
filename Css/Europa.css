@@ -160,10 +160,10 @@ ul li ul li a {
     margin-bottom: 30px;
     text-align: center;
     font-size: 30px;
-    color: rgb(239, 237, 243);
+    color: rgb(239, 236, 245);
     font-weight: bold;
     text-shadow: 2px 2px 2px #333;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 section {

@@ -1,57 +1,192 @@
-.gallery {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    height: 900px;
+    background-image: url(https://cdn.hipwallpaper.com/i/46/69/zKF0oA.jpg);
+/*fixare il background su sfondo */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+nav {
+	margin: 0 auto;
+	display: block;
+	font-size: 16px;
+	margin-top: 0;
 	display: flex;
-	padding: 2px;
-	transition: .3s;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  ul li {
+	list-style: none;
+	margin: 10px auto;
+	display:inline-block;
+	padding: 0 30px;
+	position:relative;
+	text-decoration: none;
+	text-align: center;
+  }
+  
+  li a {
+	color: rgb(0, 0, 0);
+  
+  
+  }
+  
+  li a:hover {
+	color: rgb(158, 55, 55);
+  }
+  
+  li:hover {
+	cursor: pointer;
+  }
+  
+  ul li ul {
+	visibility: hidden;
+	opacity: 5px;
+	position: absolute;
+	padding-left: 0;
+	left: 0;
+	display: none;
+	background: rgba(209, 198, 198, 0);
+  }
+  
+  ul li:hover>ul,
+  ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	min-width: 250px;
+	text-align: left;
+	padding-top: 20px;
+   }
+  
+  ul li ul li {
+	clear: both;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 15px;
+	border-style: none;
+  
+  }
+  
+  ul li ul li a:hover {
+	padding-left: 10px;
+	border-left: 2px solid rgb(158, 55, 55);
+	transition: all 0.3s ease;
 	
-	div:hover .gallery__image {
-		filter: grayscale(1);
-	}
-	
-	.gallery__column {
-		display: flex;
-		flex-direction: column;
-		width: 25%;
-	}}
-	
-	.gallery__link {
-		margin: 2px;
-		overflow: hidden;}
-		
-		.gallery:hover {
-                .gallery__image {
-				filter: grayscale(0);
-        
-			
-			.gallery__caption {
-				opacity: 1;
-			}
-        
+  
+  }
+  
+  .primary-navigation {
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px rgb(247, 216, 216);
+	color: grey;
+	font-style: normal;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 150px;
+  }
+  
+  .dropdown {
+	font-size: 18px;
+	text-shadow: none;
+	text-shadow: 1px 1px 1px rgb(247, 216, 216)
+  
+  }
+  
+  a {
+	text-decoration: none;
+	border-radius: 0 0 10px 7px;
+  }
+  
+  ul li ul li a {
+	transition: all 0.5s ease;
+  }
+  
+.container {
+	display: flex;
+	width: 100%;
+	padding: 4% 2%;
+	box-sizing: border-box;
+	height: 100vh;
+  }
+  
+  .box {
+	flex: 1;
+	overflow: hidden;
+	transition: .5s;
+	margin: 0 1;
+	box-shadow: 0 20px 30px rgba(0,0,0,.1);
+	line-height: 0;
+  }
+  
+  .box > img {
+	width: 100%;
+	height: calc(100% - 10vh);
+	object-fit:cover; 
+	transition: .5s;
+	border-style: solid;
 
-	.gallery__thumb {
-		position: relative;
-	}
-	
-	.gallery__image {
-		display: block;
-		width: 100%;
-		transition: .3s;}
-		
-		.gallery:hover {
-			transform: scale(1.1);
-		}
-	
-	
-	.gallery__caption {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		padding: 25px 15px 15px;
-		width: 100%;
-		font-family: 'Raleway', sans-serif;
-		font-size: 16px;
-		color: white;
-		opacity: 0;
-		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
-		transition: .3s;
-	}
+  }
+  
+  .box > span {
+	font-size: 3.8vh;
+	display: block;
+	text-align: center;
+	height: 10vh;
+	font-weight: bold;
+	line-height: 2.6;
+	color: rgb(184, 184, 180);
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+  }
+  .choose2 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align:justify;
+    font-size: 20px;
+    color: rgba(200, 195, 209, 0.795);
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #333;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-right: 40px;
+    padding-left: 40px;
+    
+  }
 
+  .choose3 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align:justify;
+    font-size: 80px;
+    color: rgba(200, 195, 209, 0.795);
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(8, 8, 8);
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-right: 40px;
+    padding-left: 40px;
+	text-align: center;
+    
+  }

@@ -16,7 +16,104 @@ body {
     background-size: cover;
 
 }
-
+nav {
+	margin: 0 auto;
+	display: block;
+	font-size: 16px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  ul li {
+	list-style: none;
+	margin: 10px auto;
+	display:inline-block;
+	padding: 0 30px;
+	position:relative;
+	text-decoration: none;
+	text-align: center;
+  }
+  
+  li a {
+	color: rgb(0, 0, 0);
+  
+  
+  }
+  
+  li a:hover {
+	color: rgb(158, 55, 55);
+  }
+  
+  li:hover {
+	cursor: pointer;
+  }
+  
+  ul li ul {
+	visibility: hidden;
+	opacity: 5px;
+	position: absolute;
+	padding-left: 0;
+	left: 0;
+	display: none;
+	background: rgba(209, 198, 198, 0);
+  }
+  
+  ul li:hover>ul,
+  ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	min-width: 250px;
+	text-align: left;
+	padding-top: 20px;
+   }
+  
+  ul li ul li {
+	clear: both;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 15px;
+	border-style: none;
+  
+  }
+  
+  ul li ul li a:hover {
+	padding-left: 10px;
+	border-left: 2px solid rgb(158, 55, 55);
+	transition: all 0.3s ease;
+	
+  
+  }
+  
+  .primary-navigation {
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px rgb(247, 216, 216);
+	color: grey;
+	font-style: normal;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 150px;
+  }
+  
+  .dropdown {
+	font-size: 18px;
+	text-shadow: none;
+	text-shadow: 1px 1px 1px rgb(247, 216, 216)
+  
+  }
+  
+  a {
+	text-decoration: none;
+	border-radius: 0 0 10px 7px;
+  }
+  
+  ul li ul li a {
+	transition: all 0.5s ease;
+  }
 header {
     background-image: url(../../image/galaery_2.jpg);
     text-align: center;
@@ -66,16 +163,15 @@ h1 {
   
 }   
 
-.citta,
-h2 {
+.citta,h2 {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 70px;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 3px;
     text-shadow: 2px 2px 2px #333;
-    color: rgb(200, 195, 209);
+    color: rgba(18, 17, 19, 0.74);
 }
 
 
@@ -87,6 +183,19 @@ justify-content: center;}
 
 .fixed {overflow: auto;}
 
+.choose2 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align:justify;
+    font-size: 20px;
+    color: rgba(200, 195, 209, 0.795);
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #333;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.116);
+    
+}
 
 button {
     border: solid 2px rgba(255, 255, 255, 0);
