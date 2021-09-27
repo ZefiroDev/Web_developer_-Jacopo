@@ -324,7 +324,7 @@ li a {
   }
   .choose2 {
     margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font: italic small-caps bold 10px/1 cursive;
     margin-bottom: 30px;
     text-align: justify;
     font-size: 20px;
@@ -332,7 +332,7 @@ li a {
     font-weight: bold;
     text-shadow: 5px 5px 5px #333;
     margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.116);
+
     padding-right: 140px;
     padding-left: 140px;
     
