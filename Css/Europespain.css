@@ -324,7 +324,7 @@ li a {
   }
   .choose2 {
     margin-top: 25px;
-    font: italic small-caps bold 10px/1 cursive;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
     text-align: justify;
     font-size: 20px;
