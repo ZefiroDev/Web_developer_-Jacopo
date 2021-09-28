@@ -150,7 +150,7 @@ textarea {
 #container {
   border: solid 3px #000000;
   max-width: 768px;
-  margin: 150px auto;
+  margin: 10px auto;
   position: relative;
 }
 
@@ -357,3 +357,31 @@ footer {
   font-size: 13.9px;
 }
 
+
+
+.center {
+  display: table;
+  width: 100%;
+}
+
+#social-test {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+    color: rgb(5, 5, 5);
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+}
+  .social {
+    padding-left: 0px;
+  }
+
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
