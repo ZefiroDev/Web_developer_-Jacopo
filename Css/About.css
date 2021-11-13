@@ -260,12 +260,11 @@ var*/
 }
 .choose2 {
     margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Fondamento, cursive;
     margin-bottom: 30px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(200, 195, 209, 0.795);
-    font-weight: bold;
     text-shadow: 5px 5px 5px #333;
     margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.116);

@@ -138,7 +138,7 @@ nav {
 	height: calc(100% - 10vh);
 	object-fit:cover; 
 	transition: .5s;
-	border-style: solid;
+	
 
   }
   
@@ -160,12 +160,12 @@ nav {
   }
   .choose2 {
     margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Fondamento, cursive;
     margin-bottom: 30px;
     text-align:justify;
     font-size: 20px;
     color: rgba(200, 195, 209, 0.795);
-    font-weight: bold;
+    
     text-shadow: 5px 5px 5px #333;
     margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0);
@@ -176,17 +176,16 @@ nav {
 
   .choose3 {
     margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Dancing Script', cursive;
     margin-bottom: 30px;
     text-align:justify;
-    font-size: 80px;
+    font-size: 70px;
     color: rgba(200, 195, 209, 0.795);
     font-weight: bold;
     text-shadow: 5px 5px 5px rgb(8, 8, 8);
-    margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0);
-    padding-right: 40px;
-    padding-left: 40px;
+    margin-right: auto;
+    margin-left:auto;
 	text-align: center;
     
   }
